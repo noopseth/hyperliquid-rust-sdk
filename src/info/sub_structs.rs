@@ -84,6 +84,8 @@ pub struct FeeSchedule {
     pub add: String,
     pub cross: String,
     pub referral_discount: String,
+    pub spot_cross: String,
+    pub spot_add: String,
     pub tiers: Tiers,
 }
 
